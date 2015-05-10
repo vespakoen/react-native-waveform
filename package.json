@@ -1,0 +1,19 @@
+{
+  "name": "react-native-waveform",
+  "version": "0.0.0",
+  "description": "![alt text](https://s3-us-west-1.amazonaws.com/ezaudio-media/EZAudioJumbo-Alt.png \"EZAudioLogo\")",
+  "main": "WaveForm.ios.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syedhali/EZAudio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syedhali/EZAudio/issues"
+  },
+  "homepage": "https://github.com/syedhali/EZAudio"
+}
