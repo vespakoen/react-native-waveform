@@ -404,8 +404,6 @@
 - (void)handlePanGesture:(UIPanGestureRecognizer *)recognizer
 {
     CGPoint point = [recognizer translationInView:self];
-    NSLog(@"translation: %f", point.x);
-
     if (self.doesAllowScroll) {
         if (recognizer.state == UIGestureRecognizerStateBegan && [self.delegate respondsToSelector:@selector(waveformDidBeginPanning:)])
           [self.delegate waveformDidBeginPanning:self];

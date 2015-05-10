@@ -1,19 +1,42 @@
 {
   "name": "react-native-waveform",
-  "version": "0.0.0",
-  "description": "![alt text](https://s3-us-west-1.amazonaws.com/ezaudio-media/EZAudioJumbo-Alt.png \"EZAudioLogo\")",
+  "version": "0.1.0",
+  "description": "react-native module that exposes (and fixes some bugs in) FDWaveformView for visualizing waveforms of an audio file.",
   "main": "WaveForm.ios.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/syedhali/EZAudio.git"
+    "url": "https://github.com/vespakoen/react-native-waveform.git"
   },
-  "author": "",
+  "author": {
+    "name": "Koen Schmeets"
+  },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/syedhali/EZAudio/issues"
+    "url": "https://github.com/vespakoen/react-native-waveform/issues"
   },
-  "homepage": "https://github.com/syedhali/EZAudio"
+  "homepage": "https://github.com/vespakoen/react-native-waveform",
+  "gitHead": "f83e5873ecfc6dc26d1931b2f62dadf0c8e7b2cb",
+  "_id": "react-native-waveform@0.1.0",
+  "_shasum": "aa6507a7048ab101a1085bea9241c9db22f1ef83",
+  "_from": "react-native-waveform@",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "vespakoen",
+    "email": "k.schmeets@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "vespakoen",
+      "email": "k.schmeets@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "aa6507a7048ab101a1085bea9241c9db22f1ef83",
+    "tarball": "http://registry.npmjs.org/react-native-waveform/-/react-native-waveform-0.1.0.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/react-native-waveform/-/react-native-waveform-0.1.0.tgz"
 }

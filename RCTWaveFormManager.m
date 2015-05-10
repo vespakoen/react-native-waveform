@@ -6,7 +6,6 @@ RCT_EXPORT_MODULE()
 
 - (UIView *)view
 {
-  NSLog(@"RCTWaveFormManager.view %@", self);
   return [[RCTWaveForm alloc] initWithFrame:CGRectZero];
 }
 

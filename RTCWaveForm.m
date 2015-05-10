@@ -3,9 +3,7 @@
 @implementation RCTWaveForm
 
 - (void)initialize
-{
-  NSLog(@"RCTWaveForm.initialize");
-  
+{ 
   self.waveform = [[FDWaveformView alloc] initWithFrame:CGRectZero];
   // self.waveform.delegate = self;
   self.waveform.alpha = 1.0f;
@@ -14,7 +12,6 @@
   self.waveform.doesAllowStretch = NO;
   self.waveform.doesAllowScroll = NO;
   self.waveform.wavesColor = [UIColor whiteColor];
-  NSLog(@"RCTWaveForm.initialize - self.waveform: %@", self.waveform);
   [self addSubview:self.waveform];
 }
 
