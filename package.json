@@ -2,7 +2,7 @@
   "name": "react-native-waveform",
   "version": "0.1.0",
   "description": "react-native module that exposes (and fixes some bugs in) FDWaveformView for visualizing waveforms of an audio file.",
-  "main": "WaveForm.ios.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
