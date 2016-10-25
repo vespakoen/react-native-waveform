@@ -38,11 +38,10 @@
   [self setUrl:[NSURL fileURLWithPath:tempFilePath]];
 }
 
-- (void)setFilename:(NSString*)strFilename
+- (void)setFilename:(NSString*)path
 {
   NSString *docPath = [NSSearchPathForDirectoriesInDomains (NSDocumentDirectory,NSUserDomainMask, YES) objectAtIndex:0];
-  NSString *filePath = [NSString stringWithFormat:@"%@/%@",docPath,strFilename];
-  NSURL *url = [NSURL fileURLWithPath:filePath];
+  NSURL *url = [NSURL fileURLWithPath:path];
   [self setUrl: url];
 }
 
