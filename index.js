@@ -1,7 +1,7 @@
 var React = require('react-native');
 var { requireNativeComponent } = React;
 
-var Waveform = requireNativeComponent('Waveform');
+var Waveform = requireNativeComponent('RCTWaveForm');
 
 // Waveform.propTypes = {
 //   filename: React.PropTypes.string,
